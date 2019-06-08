@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>@yield('title', 'Weibo App') - Laravel 入门教程</title>
+    <title>@yield('title', '智慧體溫管理系統') - 智慧體溫管理系統</title>
     <link rel="stylesheet" href="{{ mix('css/app.css') }}">
   </head>
 

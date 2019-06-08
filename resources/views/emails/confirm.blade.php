@@ -2,20 +2,20 @@
 <html>
 <head>
   <meta charset="UTF-8">
-  <title>注册确认链接</title>
+  <title>註冊確認鏈接</title>
 </head>
 <body>
-  <h1>感谢您在 Weibo App 网站进行注册！</h1>
+  <h1>感謝您在智慧體溫管理系統進行註冊！</h1>
 
   <p>
-    请点击下面的链接完成注册：
+    請點擊下面的鏈接完成註冊：
     <a href="{{ route('confirm_email', $user->activation_token) }}">
       {{ route('confirm_email', $user->activation_token) }}
     </a>
   </p>
 
   <p>
-    如果这不是您本人的操作，请忽略此邮件。
+    如果這不是您本人的操作，請忽略此信息。
   </p>
 </body>
 </html>
